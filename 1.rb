@@ -23,3 +23,11 @@ case name
    else 
     puts"This is bad"
 end
+
+puts "Input OS command"
+command=gets
+system ("#{command}")
+
+puts "input ruby command" 
+commandRuby=gets
+puts eval (commandRuby).inspect
