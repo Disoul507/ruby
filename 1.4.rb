@@ -28,11 +28,11 @@ end
 
 def sum_inter(arr,arr1)
     arr2= arr & arr1
-    a=arr2.reduce{|result,el| result+=el}
+    a=arr2.reduce{|result,el| result+el}
     return a
 end
-arr=read()
-arr1=inter()
-#puts "Массив чисел перед последним минимальным: #{min(arr)}"
-#puts "Массив чисел после первого максимального: #{max(arr)}"
-puts "Сумма элементов попадающих в интервал: #{sum_inter(arr,arr1)}"
+
+
+#puts "Массив чисел перед последним минимальным: #{min(read())}"
+#puts "Массив чисел после первого максимального: #{max(read())}"
+#puts "Сумма элементов попадающих в интервал: #{sum_inter(read(),inter())}"
